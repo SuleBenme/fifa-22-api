@@ -4,17 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel ./src -d ./lib"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SuleBenme/fifa-22-api.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Soulaimane Benmessaoud",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/SuleBenme/fifa-22-api/issues"
   },
-  "homepage": "https://github.com/SuleBenme/fifa-22-api#readme"
+  "homepage": "https://github.com/SuleBenme/fifa-22-api#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
 }
